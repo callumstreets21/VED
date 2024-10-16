@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "VED100692052",
+			"Path": "..\\Source\\VED100692052.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "VED100692052Editor",
+			"Path": "..\\Source\\VED100692052Editor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

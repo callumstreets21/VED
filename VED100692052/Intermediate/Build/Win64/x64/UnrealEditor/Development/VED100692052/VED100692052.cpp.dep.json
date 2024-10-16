@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\callum\\documents\\github\\ved project\\ved100692052\\source\\ved100692052\\ved100692052.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\callum\\documents\\github\\ved project\\ved100692052\\intermediate\\build\\win64\\x64\\ved100692052editor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\callum\\documents\\github\\ved project\\ved100692052\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\ved100692052\\definitions.ved100692052.h",
+            "c:\\users\\callum\\documents\\github\\ved project\\ved100692052\\source\\ved100692052\\ved100692052.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
