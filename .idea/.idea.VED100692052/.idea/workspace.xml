@@ -15,7 +15,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VED100692052/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VED100692052/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/BP_GravityField.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP_GravityField.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/GravityTestLevel.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/GravityTestLevel.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/VED100692052/VED100692052.Build.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/VED100692052/VED100692052.Build.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VED100692052.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/VED100692052.uproject" afterDir="false" />
     </list>
@@ -26,6 +25,10 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Plugins/ProceduralMeshGeneratorUtils/Source/ProceduralMeshGeneratorUtils/Private/GeneratorFunctions.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Plugins/ProceduralMeshGeneratorUtils/Source/ProceduralMeshGeneratorUtils/Public/GeneratorFunctions.h" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -486,6 +489,8 @@
       <workItem from="1740417379314" duration="5000" />
       <workItem from="1740582422326" duration="6065000" />
       <workItem from="1740591214938" duration="1301000" />
+      <workItem from="1740758141628" duration="17000" />
+      <workItem from="1740758207621" duration="5979000" />
     </task>
     <servers />
   </component>
