@@ -3,6 +3,7 @@
 #pragma once
 
 #include "Kismet/BlueprintFunctionLibrary.h"
+#include "ProceduralMeshComponent.h"
 #include "ProceduralMeshGeneratorUtilsBPLibrary.generated.h"
 
 /* 
@@ -26,7 +27,18 @@ UCLASS()
 class UProceduralMeshGeneratorUtilsBPLibrary : public UBlueprintFunctionLibrary
 {
 	GENERATED_UCLASS_BODY()
+	
 
-	UFUNCTION(BlueprintCallable, meta = (DisplayName = "Execute Sample function", Keywords = "ProceduralMeshGeneratorUtils sample test testing"), Category = "ProceduralMeshGeneratorUtilsTesting")
-	static float ProceduralMeshGeneratorUtilsSampleFunction(float Param);
+	UFUNCTION(BlueprintCallable, meta = (DisplayName = "Generate Sphere Mesh", Keywords = "Procedural spehre utils "), Category = "Utils")
+	static void GenerateSphereMesh(UProceduralMeshComponent* Mesh, float Radius, int LatitudeBands, int LongitudeBands);
+
+	UFUNCTION(BlueprintCallable, meta = (DisplayName = "Generate Cube Mesh", Keywords = "Procedural cube utils "), Category = "Utils")
+	static void GenerateCubeMesh(UProceduralMeshComponent* Mesh, float SideLength);
+
+	UFUNCTION(BlueprintCallable, meta = (DisplayName = "Generate Disk Mesh", Keywords = "Procedural disk utils "), Category = "Utils")
+	static void GenerateBeveledDisk(UProceduralMeshComponent* Mesh,
+	float InnerRadius = 50.0f,
+	float OuterRadius = 100.0f,
+	int32 RadialSegments = 32,
+	int32 TubularSegments = 16);
 };

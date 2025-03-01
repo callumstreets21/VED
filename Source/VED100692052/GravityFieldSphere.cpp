@@ -5,11 +5,6 @@
 #include "GeneratorFunctions.h"
 
 
-AGravityFieldSphere::AGravityFieldSphere()
-{
-	GeneratorFunctions::GenerateSphereMesh(proceduralMesh, 100, 16, 16);
-}
-
 void AGravityFieldSphere::ComputeGravity(FVector Positon, FVector& Gravity)
 {
 	// Computing the gravity is easy for a sphere. Simply take the vector from the actor to the centre of the gravity sphere
