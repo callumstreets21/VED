@@ -13,17 +13,10 @@
   <component name="ChangeListManager">
     <list default="true" id="fd04bc2f-7331-4fef-9c9d-c186fc3bb38d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VED100692052/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VED100692052/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP_GravityField.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/GravityTestLevel.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/GravityTestLevel.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/MyGravityFieldSphere.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/MyGravityFieldSphere.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/ProceduralMeshGeneratorUtils/Source/ProceduralMeshGeneratorUtils/Private/GeneratorFunctions.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/ProceduralMeshGeneratorUtils/Source/ProceduralMeshGeneratorUtils/Private/GeneratorFunctions.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/ProceduralMeshGeneratorUtils/Source/ProceduralMeshGeneratorUtils/Private/ProceduralMeshGeneratorUtilsBPLibrary.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/ProceduralMeshGeneratorUtils/Source/ProceduralMeshGeneratorUtils/Private/ProceduralMeshGeneratorUtilsBPLibrary.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/ProceduralMeshGeneratorUtils/Source/ProceduralMeshGeneratorUtils/Public/GeneratorFunctions.h" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/ProceduralMeshGeneratorUtils/Source/ProceduralMeshGeneratorUtils/Public/GeneratorFunctions.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/ProceduralMeshGeneratorUtils/Source/ProceduralMeshGeneratorUtils/Public/ProceduralMeshGeneratorUtilsBPLibrary.h" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/ProceduralMeshGeneratorUtils/Source/ProceduralMeshGeneratorUtils/Public/ProceduralMeshGeneratorUtilsBPLibrary.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/VED100692052/BPFL_ShapeGenerators.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/VED100692052/BPFL_ShapeGenerators.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/VED100692052/GravityFieldSphere.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/VED100692052/GravityFieldSphere.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/VED100692052/GravityFieldSphere.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/VED100692052/GravityFieldSphere.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Materials/M_PavingStones.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Materials/M_PavingStones.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -503,6 +496,7 @@
       <workItem from="1740789416777" duration="742000" />
       <workItem from="1740792224697" duration="2002000" />
       <workItem from="1740835586500" duration="8326000" />
+      <workItem from="1741107020814" duration="1475000" />
     </task>
     <servers />
   </component>
