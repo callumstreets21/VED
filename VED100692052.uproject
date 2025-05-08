@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "{69D6E11B-4104-A7EA-A9F2-D7A0416A71C3}",
+	"EngineAssociation": "5.4",
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -23,6 +23,10 @@
 		},
 		{
 			"Name": "ProceduralMeshGeneratorUtils",
+			"Enabled": true
+		},
+		{
+			"Name": "ProfilingToolsPlus",
 			"Enabled": true
 		}
 	]

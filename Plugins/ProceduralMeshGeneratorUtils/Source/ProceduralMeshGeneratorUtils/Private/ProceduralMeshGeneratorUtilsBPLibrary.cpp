@@ -181,8 +181,8 @@ void UProceduralMeshGeneratorUtilsBPLibrary::GenerateBeveledDisk(UProceduralMesh
     float TwoPi = 2.0f * PI;
     float SegmentAngleStep = TwoPi / RadialSegments;
     float TubeAngleStep = PI / TubularSegments;  // Only 180 degrees for half-circle
-    float TorusRadius = (OuterRadius - InnerRadius) * 0.5f;
-    float CenterRadius = InnerRadius + TorusRadius;
+    float TorusRadius = (InnerRadius - OuterRadius) * 0.5f;
+    float CenterRadius = OuterRadius + TorusRadius;
 
     // Generate vertices for outer half-circle segments
     for (int32 RadialIndex = 0; RadialIndex <= RadialSegments; RadialIndex++)

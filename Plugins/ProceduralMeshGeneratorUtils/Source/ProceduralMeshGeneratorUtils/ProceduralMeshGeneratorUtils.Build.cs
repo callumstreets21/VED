@@ -25,7 +25,8 @@ public class ProceduralMeshGeneratorUtils : ModuleRules
 		PublicDependencyModuleNames.AddRange(
 			new string[]
 			{
-				"Core", "ProceduralMeshComponent",
+				"Core", 
+				"ProceduralMeshComponent",
 				// ... add other public dependencies that you statically link with here ...
 			}
 			);
