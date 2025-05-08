@@ -1,0 +1,23 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "ProfilingToolsPlus",
+	"Description": "An alternative set of profiling tools for unreal engine 5.4",
+	"Category": "Other",
+	"CreatedBy": "Callum Streets",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EngineVersion": "5.4.0",
+	"CanContainContent": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "ProfilingToolsPlus",
+			"Type": "Editor",
+			"LoadingPhase": "PostDefault"
+		}
+	]
+}
