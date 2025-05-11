@@ -24,19 +24,19 @@ public:
 	UFUNCTION(BlueprintCallable)
 	FVector ConvertPosToGlobalSpace(const FVector& LocalPosition) const;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Default")
 	bool bInvertGravity = false;
 	
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Default")
 	float innerRadius = 50;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Default")
 	float outerRadius = 100;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Default")
 	int radialSegments = 16;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Default")
 	int tubularSegmenets = 16;
 
 	

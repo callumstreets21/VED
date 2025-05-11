@@ -164,7 +164,7 @@ void UProceduralMeshGeneratorUtilsBPLibrary::GenerateCubeMesh(UProceduralMeshCom
     Mesh->ClearCollisionConvexMeshes();
     Mesh->CreateMeshSection(
     0, Vertices, Triangles, Normals, UVs, VertexColors, Tangents, true
-);
+    );
 
     Mesh->AddCollisionConvexMesh(Vertices);
 }

@@ -4,21 +4,18 @@
 
 #include "CoreMinimal.h"
 #include "GravityFieldBase.h"
-#include "GravityFieldSphere.generated.h"
+#include "MyGravityFieldBoxParallel.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class VED100692052_API AGravityFieldSphere : public AGravityFieldBase
+class VED100692052_API AMyGravityFieldBoxParallel : public AGravityFieldBase
 {
 	GENERATED_BODY()
 public:
-
 	virtual void ComputeGravity(FVector Positon, FVector& Gravity) override;
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Default")
-	bool bInvertGravity = false;
-	
-	
+	float SideLength = 100;
 };

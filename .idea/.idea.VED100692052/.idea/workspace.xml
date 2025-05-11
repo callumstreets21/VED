@@ -13,9 +13,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd04bc2f-7331-4fef-9c9d-c186fc3bb38d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VED100692052/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VED100692052/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/GravityFieldBPs/BP_GravityFieldDisk.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/GravityFieldBPs/BP_GravityFieldDisk.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/GravityFieldBPs/MyGravityFieldSphere.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/GravityFieldBPs/MyGravityFieldSphere.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/GravityTestLevel.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/GravityTestLevel.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Materials/M_BlackHole.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Materials/M_BlackHole.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/WhiteBox.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/WhiteBox.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/_GENERATED/Callum/Sphere_D9B628E0.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/_GENERATED/Callum/Sphere_D9B628E0.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/ProceduralMeshGeneratorUtils/Source/ProceduralMeshGeneratorUtils/Private/GeneratorFunctions.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/ProceduralMeshGeneratorUtils/Source/ProceduralMeshGeneratorUtils/Private/GeneratorFunctions.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/ProceduralMeshGeneratorUtils/Source/ProceduralMeshGeneratorUtils/Public/GeneratorFunctions.h" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/ProceduralMeshGeneratorUtils/Source/ProceduralMeshGeneratorUtils/Public/GeneratorFunctions.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -547,6 +554,8 @@
       <workItem from="1746722393957" duration="3606000" />
       <workItem from="1746729722809" duration="86000" />
       <workItem from="1746749002270" duration="170000" />
+      <workItem from="1746972598854" duration="3000" />
+      <workItem from="1746972732457" duration="17000" />
     </task>
     <servers />
   </component>

@@ -22,4 +22,6 @@ public:
 	int32 RadialSegments = 32,
 	int32 TubularSegments = 16);
 
+	void GenerateCubeMesh(UProceduralMeshComponent* Mesh, float SideLength);
+
 };
