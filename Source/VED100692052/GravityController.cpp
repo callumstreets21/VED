@@ -5,6 +5,11 @@
 #include "GameFramework/Character.h"
 #include "GameFramework/CharacterMovementComponent.h"
 
+void AGravityController::BeginPlay()
+{
+	SmoothedControlRotation = GetControlRotation();
+}
+
 void AGravityController::UpdateRotation(float DeltaTime)
 {
 	FVector GravityDirection = FVector::DownVector;
@@ -16,25 +21,18 @@ void AGravityController::UpdateRotation(float DeltaTime)
 		}
 	}
 
-	// Get the current control rotation in world space
 	FRotator ViewRotation = GetControlRotation();
 
-	// Add any rotation from the gravity changes, if any happened.
-	// Delete this code block if you don't want the camera to automatically compensate for gravity rotation.
 	if (!LastFrameGravity.Equals(FVector::ZeroVector))
 	{
 		const FQuat DeltaGravityRotation = FQuat::FindBetweenNormals(LastFrameGravity, GravityDirection);
 		const FQuat WarpedCameraRotation = DeltaGravityRotation * FQuat(ViewRotation);
-
-		ViewRotation = WarpedCameraRotation.Rotator();	
+		ViewRotation = WarpedCameraRotation.Rotator();
 	}
 	LastFrameGravity = GravityDirection;
 
-	// Convert the view rotation from world space to gravity relative space.
-	// Now we can work with the rotation as if no custom gravity was affecting it.
 	ViewRotation = GetGravityRelativeRotation(ViewRotation, GravityDirection);
 
-	// Calculate Delta to be applied on ViewRotation
 	FRotator DeltaRot(RotationInput);
 
 	if (PlayerCameraManager)
@@ -43,19 +41,26 @@ void AGravityController::UpdateRotation(float DeltaTime)
 
 		PlayerCameraManager->ProcessViewRotation(DeltaTime, ViewRotation, DeltaRot);
 
-		// Zero the roll of the camera as we always want it horizontal in relation to the gravity.
+		// Zero the roll for horizontal camera
 		ViewRotation.Roll = 0;
 
-		// Convert the rotation back to world space, and set it as the current control rotation.
-		SetControlRotation(GetGravityWorldRotation(ViewRotation, GravityDirection));
+		// Convert back to world space
+		FRotator TargetControlRotation = GetGravityWorldRotation(ViewRotation, GravityDirection);
+
+		// --- Interpolation step ---
+		const float InterpSpeed = 5.0f; // Tweak as needed for smoothing
+		SmoothedControlRotation = FMath::RInterpTo(SmoothedControlRotation, TargetControlRotation, DeltaTime, InterpSpeed);
+
+		SetControlRotation(SmoothedControlRotation);
 	}
 
 	APawn* const P = GetPawnOrSpectator();
 	if (P)
 	{
-		P->FaceRotation(ViewRotation, DeltaTime);
+		P->FaceRotation(SmoothedControlRotation, DeltaTime);
 	}
 }
+
 
 FRotator AGravityController::GetGravityRelativeRotation(FRotator Rotation, FVector GravityDirection)
 {
