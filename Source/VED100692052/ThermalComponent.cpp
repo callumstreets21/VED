@@ -40,7 +40,6 @@ void UThermalComponent::CommitHeatDelta()
     if (bIsHeatSource)
     {
         CurrentTemperature = SourceTemperature;
-        UE_LOG(LogTemp, Warning, TEXT("HeatSource"));
     }
 
     // Check for ignition
@@ -66,7 +65,6 @@ void UThermalComponent::CommitHeatDelta()
             OnIgnitionEnded.Broadcast(this);
         }
     }
-    UE_LOG(LogTemp, Warning, TEXT("Current Temperature: %f"), CurrentTemperature);
 }
 
 

@@ -21,13 +21,11 @@ void UGravityComponent::BeginPlay()
 void UGravityComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
-
-	
 	
 
-	if (!TargetPrimitive || !TargetPrimitive->IsSimulatingPhysics())
+	if (!TargetPrimitive || !TargetPrimitive->IsSimulatingPhysics() || !bEnableGravity)
 		return;
-
+	
 	FVector Force = GravityDirection.GetSafeNormal() * GravityStrength * TargetPrimitive->GetMass();
 	TargetPrimitive->AddForce(Force);
 }

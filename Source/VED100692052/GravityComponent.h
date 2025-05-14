@@ -27,6 +27,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Gravity")
 	bool bOverrideWorldGravity = true;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Gravity")
+	bool bEnableGravity = true;
+
 protected:
 	virtual void BeginPlay() override;
 
