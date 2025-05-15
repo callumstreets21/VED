@@ -14,23 +14,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fd04bc2f-7331-4fef-9c9d-c186fc3bb38d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VED100692052/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VED100692052/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP_PortalCrystal.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP_PortalCrystal.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/DashBreakableWall.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/DashBreakableWall.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Greybox.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Greybox.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Planet2IceUpdated.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Planet2IceUpdated.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Platform.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Platform.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/SM_MERGED_StaticMeshActor_342.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_Portal.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_Portal.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/WBP_Hud.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/WBP_Hud.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/PhysicsBlueprints/BP_FireBall.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/PhysicsBlueprints/BP_FireBall.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/PhysicsBlueprints/BP_physicsSand.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/PhysicsBlueprints/BP_physicsSand.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/PhysicsBlueprints/PhysicsObject_IceCube.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/PhysicsBlueprints/PhysicsObject_IceCube.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/PhysicsBlueprints/PressurePlate.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/PhysicsBlueprints/PressurePlate.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/PhysicsBlueprints/Quicksandplanet_Blueprint.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/PhysicsBlueprints/Quicksandplanet_Blueprint.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/PhysicsBlueprints/Water_Sphere.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/PhysicsBlueprints/Water_Sphere.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/clockexport.uasset" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,9 +28,21 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Plugins/ProceduralMeshGeneratorUtils/Source/ProceduralMeshGeneratorUtils/Private/GeneratorFunctions.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Plugins/ProceduralMeshGeneratorUtils/Source/ProceduralMeshGeneratorUtils/Private/ProceduralMeshGeneratorUtilsBPLibrary.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Plugins/ProceduralMeshGeneratorUtils/Source/ProceduralMeshGeneratorUtils/Public/GeneratorFunctions.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Plugins/ProceduralMeshGeneratorUtils/Source/ProceduralMeshGeneratorUtils/Public/ProceduralMeshGeneratorUtilsBPLibrary.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/VED100692052/GravityComponent.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/VED100692052/GravityComponent.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/VED100692052/GravityController.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/VED100692052/GravityController.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/VED100692052/GravityFieldBase.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/VED100692052/GravityFieldBase.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/VED100692052/GravityFieldDisk.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/VED100692052/GravityFieldDisk.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/VED100692052/MyGravityFieldBoxParallel.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/VED100692052/MyGravityFieldBoxParallel.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/VED100692052/ThermalComponent.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/VED100692052/ThermalComponent.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/VED100692052/ThermalManagerVolume.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/VED100692052/ThermalManagerVolume.h" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -574,6 +569,8 @@
       <workItem from="1747151852098" duration="10864000" />
       <workItem from="1747222167845" duration="9345000" />
       <workItem from="1747312191504" duration="922000" />
+      <workItem from="1747321031875" duration="111000" />
+      <workItem from="1747321294519" duration="87000" />
     </task>
     <servers />
   </component>
