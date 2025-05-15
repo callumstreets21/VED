@@ -12,7 +12,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd04bc2f-7331-4fef-9c9d-c186fc3bb38d" name="Changes" comment="" />
+    <list default="true" id="fd04bc2f-7331-4fef-9c9d-c186fc3bb38d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VED100692052/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VED100692052/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/BP_PortalCrystal.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP_PortalCrystal.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Greybox.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Greybox.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/MovingPyramid.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/MovingPyramid.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/PhysicsBlueprints/BP_FireBall.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/PhysicsBlueprints/BP_FireBall.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/PhysicsBlueprints/BP_PhysicsGlass.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/PhysicsBlueprints/BP_PhysicsGlass.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/PhysicsBlueprints/BP_physicsSand.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/PhysicsBlueprints/BP_physicsSand.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/PhysicsBlueprints/PressurePlate.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/PhysicsBlueprints/PressurePlate.uasset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -553,7 +563,7 @@
       <workItem from="1747149930212" duration="1000" />
       <workItem from="1747150292850" duration="1196000" />
       <workItem from="1747151852098" duration="10864000" />
-      <workItem from="1747222167845" duration="8087000" />
+      <workItem from="1747222167845" duration="9345000" />
     </task>
     <servers />
   </component>
